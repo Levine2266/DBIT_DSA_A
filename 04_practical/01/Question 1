@@ -1,0 +1,8 @@
+def reverse_list(lst):
+    return lst[::-1]
+
+
+def rotate_list(lst):
+    if not lst:
+        return lst
+    return [lst[-1]] + lst[:-1]
